@@ -195,12 +195,13 @@ class User_model extends CI_Model {
         
         $db = new DB();
         $db->connect();
-
+        
+        $response = null;
         if(isset($user_infor['email'])){
             $sql = "update user set email = '".$user_infor['email']."' where id = ".Utils::getCurrentUserID();
             Logger::getRootLogger()->debug($sql);
             $response = $db->executeUpdateAndInsert($sql);
-            if($response !== null)
+            if($response instanceof Response)
                 return $response;
         }
         
@@ -208,10 +209,17 @@ class User_model extends CI_Model {
             $sql = "update user set cellphone = '".$user_infor['cellphone']."' where id = ".Utils::getCurrentUserID();
             Logger::getRootLogger()->debug($sql);
             $response = $db->executeUpdateAndInsert($sql);
-            if($response !== null)
+            if($response instanceof Response)
                 return $response;
         }
         
+        if($response == 0){
+            $response = new Response();
+            $response->status = Response::STATUS_ERROR;
+            $response->message = "未找到对应用户，用户信息更新失败";
+        }
+
+
         $response = new Response();
         $response->status = Response::STATUS_OK;
         $response->message = "恭喜您信息更新成功";

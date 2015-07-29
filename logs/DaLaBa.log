@@ -1,5 +1,5 @@
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -9,7 +9,7 @@
     }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -19,7 +19,7 @@
     }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -29,7 +29,7 @@
     }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -45,9 +45,9 @@
   }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -60,9 +60,9 @@
   int(0)
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T01:55:49+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -78,68 +78,53 @@
   int(0)
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -147,7 +132,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "27"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -157,13 +144,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(32) "What a fucking day!After updated"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -171,7 +158,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\php2649.tmp"
+    string(36) "D:\programming\XAMMP\tmp\php284D.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -179,7 +166,7 @@
   }
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -190,23 +177,23 @@
   string(4) "kobe"
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "adv26B7.tmp"
+  string(11) "adv28DA.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "adv26B7"
+  string(7) "adv28DA"
 }
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:48 adv_infor_array[DATA][image]:string(20) "data/img/adv26B7.jpg"
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv28DA.jpg
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv28DA.jpg"
 
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T13:59:04+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:36 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,fresh_content) values(98, 'personal', '','2015-07-28 13:59:04','What a fucking day!','What a fucking day!','')
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:55:50+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -216,7 +203,7 @@
     }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -226,7 +213,7 @@
     }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -236,7 +223,7 @@
     }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -252,9 +239,9 @@
   }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -267,9 +254,9 @@
   int(0)
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -285,68 +272,53 @@
   int(0)
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -354,7 +326,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "27"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -364,13 +338,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(32) "What a fucking day!After updated"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -378,7 +352,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\php9996.tmp"
+    string(36) "D:\programming\XAMMP\tmp\php3875.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -386,7 +360,7 @@
   }
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -397,23 +371,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "adv99F5.tmp"
+  string(11) "adv3912.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "adv99F5"
+  string(7) "adv3912"
 }
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:48 adv_infor_array[DATA][image]:string(20) "data/img/adv99F5.jpg"
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv3912.jpg
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv3912.jpg"
 
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T13:59:33+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:36 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,fresh_content) values(98, 'personal', '','2015-07-28 13:59:33','What a fucking day!','What a fucking day!','')
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:83 Advertisement_model::update_adv_validate
+2015-07-29T01:59:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:70 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='What a fucking day!After updated',
+                                         image ='data/img/adv3912.jpg', 
+                                         fresh_content ='',
+                                         where uid = 27
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -423,7 +405,7 @@
     }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -433,7 +415,7 @@
     }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -443,7 +425,7 @@
     }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -459,9 +441,9 @@
   }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -474,9 +456,9 @@
   int(0)
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -492,68 +474,53 @@
   int(0)
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -561,7 +528,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "27"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -571,13 +540,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(32) "What a fucking day!After updated"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -585,7 +554,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\phpB62C.tmp"
+    string(36) "D:\programming\XAMMP\tmp\phpC4CE.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -593,7 +562,7 @@
   }
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -604,217 +573,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:92 dump file_path2:string(1) "/"
-
-2015-07-28T14:01:52+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:101 move_uploaded_file file failed
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"LOGIN",
-    "SESSION_KEY":"",
-    "DATA":{
-        "name":"chenyang",
-        "password":"12345"
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"LOGIN",
-    "SESSION_KEY":"",
-    "DATA":{
-        "name":"chenyang",
-        "password":"12345"
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"LOGIN",
-    "SESSION_KEY":"",
-    "DATA":{
-        "name":"chenyang",
-        "password":"12345"
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
-  ["VERSION"]=>
-  string(5) "1.0.0"
-  ["REQUEST_TYPE"]=>
-  string(5) "LOGIN"
-  ["SESSION_KEY"]=>
-  string(0) ""
-  ["DATA"]=>
-  array(2) {
-    ["name"]=>
-    string(8) "chenyang"
-    ["password"]=>
-    string(5) "12345"
-  }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
-  ["current_field"]=>
-  int(0)
-  ["field_count"]=>
-  int(10)
-  ["lengths"]=>
-  NULL
-  ["num_rows"]=>
-  int(1)
-  ["type"]=>
-  int(0)
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
-  ["current_field"]=>
-  int(0)
-  ["field_count"]=>
-  int(1)
-  ["lengths"]=>
-  array(1) {
-    [0]=>
-    int(2)
-  }
-  ["num_rows"]=>
-  int(1)
-  ["type"]=>
-  int(0)
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-"
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
-  ["VERSION"]=>
-  string(5) "1.0.0"
-  ["REQUEST_TYPE"]=>
-  string(20) "CREATE_ADVERTISEMENT"
-  ["SESSION_KEY"]=>
-  string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
-  ["DATA"]=>
-  array(6) {
-    ["image"]=>
-    string(4) "true"
-    ["type"]=>
-    string(8) "personal"
-    ["publish_position"]=>
-    string(0) ""
-    ["title"]=>
-    string(19) "What a fucking day!"
-    ["text_content"]=>
-    string(19) "What a fucking day!"
-    ["fresh_content"]=>
-    string(0) ""
-  }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
-  ["adv_img1"]=>
-  array(5) {
-    ["name"]=>
-    string(8) "kobe.jpg"
-    ["type"]=>
-    string(24) "application/octet-stream"
-    ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\phpF37C.tmp"
-    ["error"]=>
-    int(0)
-    ["size"]=>
-    int(13064)
-  }
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
-  ["dirname"]=>
-  string(1) "."
-  ["basename"]=>
-  string(8) "kobe.jpg"
-  ["extension"]=>
-  string(3) "jpg"
-  ["filename"]=>
-  string(4) "kobe"
-}
-
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "advF3DB.tmp"
+  string(11) "advC57B.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "advF3DB"
+  string(7) "advC57B"
 }
 
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:93 dump file_path2:string(1) "/"
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advC57B.jpg
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/advC57B.jpg"
 
-2015-07-28T14:05:24+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:102 move_uploaded_file file failed
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:85 Advertisement_model::update_adv_validate
+2015-07-29T02:01:57+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='What a fucking day!After updated',
+                                         image ='data/img/advC57B.jpg', 
+                                         fresh_content =''
+                                         where id = 27
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -824,7 +607,7 @@
     }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -834,7 +617,7 @@
     }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -844,7 +627,7 @@
     }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -860,9 +643,9 @@
   }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -875,9 +658,9 @@
   int(0)
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -893,68 +676,53 @@
   int(0)
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"27",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -962,7 +730,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "27"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -972,13 +742,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(32) "What a fucking day!After updated"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -986,7 +756,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\php1552.tmp"
+    string(36) "D:\programming\XAMMP\tmp\phpB6CC.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -994,7 +764,7 @@
   }
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -1005,22 +775,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "adv15C1.tmp"
+  string(11) "advB75A.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "adv15C1"
+  string(7) "advB75A"
 }
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:93 dump file_path2:string(1) "/"
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advB75A.jpg
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/advB75A.jpg"
 
-2015-07-28T16:02:25+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:102 move_uploaded_file file failed
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:85 Advertisement_model::update_adv_validate
+2015-07-29T02:02:59+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='What a fucking day!After updated',
+                                         image ='data/img/advB75A.jpg', 
+                                         fresh_content =''
+                                         where id = 27 and uid = 98
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1030,7 +809,7 @@
     }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1040,7 +819,7 @@
     }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1050,7 +829,7 @@
     }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1066,9 +845,9 @@
   }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1081,9 +860,9 @@
   int(0)
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1099,68 +878,53 @@
   int(0)
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"28",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"28",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"28",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"What a fucking day!After updated",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1168,7 +932,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "28"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -1178,13 +944,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(32) "What a fucking day!After updated"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -1192,7 +958,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\phpE84C.tmp"
+    string(36) "D:\programming\XAMMP\tmp\phpD6AD.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -1200,7 +966,7 @@
   }
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -1211,21 +977,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "advE8BA.tmp"
+  string(11) "advD72B.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "advE8BA"
+  string(7) "advD72B"
 }
 
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:99 dump new_name://advE8BA.jpg
-2015-07-28T16:05:30+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:102 move_uploaded_file file failed
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advD72B.jpg
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/advD72B.jpg"
+
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:85 Advertisement_model::update_adv_validate
+2015-07-29T02:03:07+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='What a fucking day!After updated',
+                                         image ='data/img/advD72B.jpg', 
+                                         fresh_content =''
+                                         where id = 28 and uid = 98
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1235,7 +1011,7 @@
     }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1245,7 +1021,7 @@
     }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1255,7 +1031,7 @@
     }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1271,9 +1047,9 @@
   }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1286,9 +1062,9 @@
   int(0)
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1304,68 +1080,53 @@
   int(0)
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1373,7 +1134,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "29"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -1383,13 +1146,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(8) "11111111"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -1397,7 +1160,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\php92C0.tmp"
+    string(36) "D:\programming\XAMMP\tmp\php6518.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -1405,7 +1168,7 @@
   }
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -1416,24 +1179,146 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "adv932E.tmp"
+  string(11) "adv6587.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "adv932E"
+  string(7) "adv6587"
 }
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:99 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv932E.jpg
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:48 adv_infor_array[DATA][image]:string(20) "data/img/adv932E.jpg"
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv6587.jpg
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv6587.jpg"
 
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T16:10:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:36 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,fresh_content) values(98, 'personal', '','2015-07-28 16:10:36','What a fucking day!','What a fucking day!','')
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:85 Advertisement_model::update_adv_validate
+2015-07-29T02:03:44+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/adv6587.jpg', 
+                                         fresh_content =''
+                                         where id = 29 and uid = 98
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
+  ["VERSION"]=>
+  string(5) "1.0.0"
+  ["REQUEST_TYPE"]=>
+  string(20) "CREATE_ADVERTISEMENT"
+  ["SESSION_KEY"]=>
+  string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
+  ["DATA"]=>
+  array(7) {
+    ["id"]=>
+    string(2) "29"
+    ["image"]=>
+    string(4) "true"
+    ["type"]=>
+    string(8) "personal"
+    ["publish_position"]=>
+    string(0) ""
+    ["title"]=>
+    string(19) "What a fucking day!"
+    ["text_content"]=>
+    string(8) "11111111"
+    ["fresh_content"]=>
+    string(0) ""
+  }
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
+  ["adv_img1"]=>
+  array(5) {
+    ["name"]=>
+    string(8) "kobe.jpg"
+    ["type"]=>
+    string(24) "application/octet-stream"
+    ["tmp_name"]=>
+    string(36) "D:\programming\XAMMP\tmp\php5C64.tmp"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(13064)
+  }
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(8) "kobe.jpg"
+  ["extension"]=>
+  string(3) "jpg"
+  ["filename"]=>
+  string(4) "kobe"
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
+  ["dirname"]=>
+  string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
+  ["basename"]=>
+  string(11) "adv5CE2.tmp"
+  ["extension"]=>
+  string(3) "tmp"
+  ["filename"]=>
+  string(7) "adv5CE2"
+}
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv5CE2.jpg
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv5CE2.jpg"
+
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:21:10+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:91 Advertisement_model::update_adv_validate
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1443,7 +1328,7 @@
     }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1453,7 +1338,7 @@
     }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1463,7 +1348,7 @@
     }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1479,9 +1364,9 @@
   }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1494,9 +1379,9 @@
   int(0)
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1512,68 +1397,53 @@
   int(0)
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1581,7 +1451,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "29"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -1591,13 +1463,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(8) "11111111"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -1605,7 +1477,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\phpDEBF.tmp"
+    string(36) "D:\programming\XAMMP\tmp\php4B85.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -1613,7 +1485,7 @@
   }
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:89 dump file_path:array(4) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -1624,24 +1496,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:91 dump file_path2:array(4) {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "advDF1D.tmp"
+  string(11) "adv4C03.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "advDF1D"
+  string(7) "adv4C03"
 }
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:99 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advDF1D.jpg
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:48 adv_infor_array[DATA][image]:string(20) "data/img/advDF1D.jpg"
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv4C03.jpg
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv4C03.jpg"
 
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T16:10:55+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:36 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,fresh_content) values(98, 'personal', '','2015-07-28 16:10:55','What a fucking day!','What a fucking day!','')
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:91 Advertisement_model::update_adv_validate
+2015-07-29T02:22:11+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/adv4C03.jpg', 
+                                         fresh_content =''
+                                         where id = 29 and uid = 98
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1651,7 +1530,7 @@
     }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1661,7 +1540,7 @@
     }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1671,7 +1550,7 @@
     }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1687,9 +1566,9 @@
   }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1702,9 +1581,9 @@
   int(0)
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:25:05+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1720,68 +1599,53 @@
   int(0)
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1789,7 +1653,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "29"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -1799,13 +1665,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(8) "11111111"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -1813,7 +1679,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\phpEB6E.tmp"
+    string(36) "D:\programming\XAMMP\tmp\phpF424.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -1821,7 +1687,7 @@
   }
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:90 dump file_path:array(4) {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -1832,24 +1698,31 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:92 dump file_path2:array(4) {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "advEBCC.tmp"
+  string(11) "advF4A2.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "advEBCC"
+  string(7) "advF4A2"
 }
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:100 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advEBCC.jpg
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:49 adv_infor_array[DATA][image]:string(20) "data/img/advEBCC.jpg"
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/advF4A2.jpg
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/advF4A2.jpg"
 
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T16:14:15+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:37 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,image, fresh_content) values(98, 'personal', '','2015-07-28 16:14:15','What a fucking day!','What a fucking day!','data/img/advEBCC.jpg','')
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:91 Advertisement_model::update_adv_validate
+2015-07-29T02:25:06+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/advF4A2.jpg', 
+                                         fresh_content =''
+                                         where id = 29 and uid = 98
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1859,7 +1732,7 @@
     }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1869,7 +1742,7 @@
     }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"LOGIN",
     "SESSION_KEY":"",
@@ -1879,7 +1752,7 @@
     }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1895,9 +1768,9 @@
   }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1910,9 +1783,9 @@
   int(0)
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:25:35+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
   ["current_field"]=>
   int(0)
   ["field_count"]=>
@@ -1928,68 +1801,53 @@
   int(0)
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:15 Advertisement::create
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:16 array(1) {
-  ["request_json"]=>
-  string(339) "{
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
-"
-}
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
     "VERSION":"1.0.0",
     "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
     "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
     "DATA":{
+        "id":"29",
         "image":"true",
         "type":"personal",
         "publish_position":"",
         "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
+        "text_content":"11111111",
         "fresh_content":""
     }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:25 adv_infor = {
-    "VERSION":"1.0.0",
-    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
-    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
-    "DATA":{
-        "image":"true",
-        "type":"personal",
-        "publish_position":"",
-        "title" : "What a fucking day!",
-        "text_content":"What a fucking day!",
-        "fresh_content":""
-    }
-}
-
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:28 dump adv_infor_array:array(4) {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
   ["VERSION"]=>
   string(5) "1.0.0"
   ["REQUEST_TYPE"]=>
@@ -1997,7 +1855,9 @@
   ["SESSION_KEY"]=>
   string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
   ["DATA"]=>
-  array(6) {
+  array(7) {
+    ["id"]=>
+    string(2) "29"
     ["image"]=>
     string(4) "true"
     ["type"]=>
@@ -2007,13 +1867,13 @@
     ["title"]=>
     string(19) "What a fucking day!"
     ["text_content"]=>
-    string(19) "What a fucking day!"
+    string(8) "11111111"
     ["fresh_content"]=>
     string(0) ""
   }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:34 _FILES:array(1) {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
   ["adv_img1"]=>
   array(5) {
     ["name"]=>
@@ -2021,7 +1881,7 @@
     ["type"]=>
     string(24) "application/octet-stream"
     ["tmp_name"]=>
-    string(36) "D:\programming\XAMMP\tmp\php1C11.tmp"
+    string(36) "D:\programming\XAMMP\tmp\php6917.tmp"
     ["error"]=>
     int(0)
     ["size"]=>
@@ -2029,7 +1889,7 @@
   }
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:90 dump file_path:array(4) {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
   ["dirname"]=>
   string(1) "."
   ["basename"]=>
@@ -2040,19 +1900,430 @@
   string(4) "kobe"
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:92 dump file_path2:array(4) {
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
   ["dirname"]=>
   string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
   ["basename"]=>
-  string(11) "adv1C7F.tmp"
+  string(11) "adv69B4.tmp"
   ["extension"]=>
   string(3) "tmp"
   ["filename"]=>
-  string(7) "adv1C7F"
+  string(7) "adv69B4"
 }
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:100 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv1C7F.jpg
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:49 adv_infor_array[DATA][image]:string(20) "data/img/adv1C7F.jpg"
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv69B4.jpg
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv69B4.jpg"
 
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:14 Advertisement_model::create
-2015-07-28T16:14:28+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:37 sql = insert into advertisement(uid, type,publish_position, publish_time,title,text_content,image, fresh_content) values(98, 'personal', '','2015-07-28 16:14:28','What a fucking day!','What a fucking day!','data/img/adv1C7F.jpg','')
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:91 Advertisement_model::update_adv_validate
+2015-07-29T02:25:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/adv69B4.jpg', 
+                                         fresh_content =''
+                                         where id = 29 and uid = 98
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+  ["VERSION"]=>
+  string(5) "1.0.0"
+  ["REQUEST_TYPE"]=>
+  string(5) "LOGIN"
+  ["SESSION_KEY"]=>
+  string(0) ""
+  ["DATA"]=>
+  array(2) {
+    ["name"]=>
+    string(8) "chenyang"
+    ["password"]=>
+    string(5) "12345"
+  }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+  ["current_field"]=>
+  int(0)
+  ["field_count"]=>
+  int(10)
+  ["lengths"]=>
+  NULL
+  ["num_rows"]=>
+  int(1)
+  ["type"]=>
+  int(0)
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+  ["current_field"]=>
+  int(0)
+  ["field_count"]=>
+  int(1)
+  ["lengths"]=>
+  array(1) {
+    [0]=>
+    int(2)
+  }
+  ["num_rows"]=>
+  int(1)
+  ["type"]=>
+  int(0)
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"29",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
+  ["VERSION"]=>
+  string(5) "1.0.0"
+  ["REQUEST_TYPE"]=>
+  string(20) "CREATE_ADVERTISEMENT"
+  ["SESSION_KEY"]=>
+  string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
+  ["DATA"]=>
+  array(7) {
+    ["id"]=>
+    string(2) "29"
+    ["image"]=>
+    string(4) "true"
+    ["type"]=>
+    string(8) "personal"
+    ["publish_position"]=>
+    string(0) ""
+    ["title"]=>
+    string(19) "What a fucking day!"
+    ["text_content"]=>
+    string(8) "11111111"
+    ["fresh_content"]=>
+    string(0) ""
+  }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
+  ["adv_img1"]=>
+  array(5) {
+    ["name"]=>
+    string(8) "kobe.jpg"
+    ["type"]=>
+    string(24) "application/octet-stream"
+    ["tmp_name"]=>
+    string(36) "D:\programming\XAMMP\tmp\php2391.tmp"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(13064)
+  }
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(8) "kobe.jpg"
+  ["extension"]=>
+  string(3) "jpg"
+  ["filename"]=>
+  string(4) "kobe"
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
+  ["dirname"]=>
+  string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
+  ["basename"]=>
+  string(11) "adv23F0.tmp"
+  ["extension"]=>
+  string(3) "tmp"
+  ["filename"]=>
+  string(7) "adv23F0"
+}
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv23F0.jpg
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv23F0.jpg"
+
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:92 Advertisement_model::update_adv_validate
+2015-07-29T02:26:23+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/adv23F0.jpg', 
+                                         fresh_content =''
+                                         where id = 29 and uid = 98
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:27 User::login
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:35 user_login_infor = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"LOGIN",
+    "SESSION_KEY":"",
+    "DATA":{
+        "name":"chenyang",
+        "password":"12345"
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\user.php:38 dump user_infor_array:array(4) {
+  ["VERSION"]=>
+  string(5) "1.0.0"
+  ["REQUEST_TYPE"]=>
+  string(5) "LOGIN"
+  ["SESSION_KEY"]=>
+  string(0) ""
+  ["DATA"]=>
+  array(2) {
+    ["name"]=>
+    string(8) "chenyang"
+    ["password"]=>
+    string(5) "12345"
+  }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:104 User_model::login
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:114 sql = select * from user where name ='chenyang'
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:125 res = object(mysqli_result)#43 (5) {
+  ["current_field"]=>
+  int(0)
+  ["field_count"]=>
+  int(10)
+  ["lengths"]=>
+  NULL
+  ["num_rows"]=>
+  int(1)
+  ["type"]=>
+  int(0)
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:129 sql = select id from user where name ='chenyang' and password = '827ccb0eea8a706c4c34a16891f84e7b'
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:142 set session[user_id] = 98
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\user_model.php:145 res = object(mysqli_result)#45 (5) {
+  ["current_field"]=>
+  int(0)
+  ["field_count"]=>
+  int(1)
+  ["lengths"]=>
+  array(1) {
+    [0]=>
+    int(2)
+  }
+  ["num_rows"]=>
+  int(1)
+  ["type"]=>
+  int(0)
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:64 Advertisement::update
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"27",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\libraries\Utils.php:77 request_json = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"27",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:73 adv_infor = {
+    "VERSION":"1.0.0",
+    "REQUEST_TYPE":"CREATE_ADVERTISEMENT",
+    "SESSION_KEY":"94e9e1bd4007c83d7ab96ecb8f2b2536",
+    "DATA":{
+        "id":"27",
+        "image":"true",
+        "type":"personal",
+        "publish_position":"",
+        "title" : "What a fucking day!",
+        "text_content":"11111111",
+        "fresh_content":""
+    }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:76 dump adv_infor_array:array(4) {
+  ["VERSION"]=>
+  string(5) "1.0.0"
+  ["REQUEST_TYPE"]=>
+  string(20) "CREATE_ADVERTISEMENT"
+  ["SESSION_KEY"]=>
+  string(32) "94e9e1bd4007c83d7ab96ecb8f2b2536"
+  ["DATA"]=>
+  array(7) {
+    ["id"]=>
+    string(2) "27"
+    ["image"]=>
+    string(4) "true"
+    ["type"]=>
+    string(8) "personal"
+    ["publish_position"]=>
+    string(0) ""
+    ["title"]=>
+    string(19) "What a fucking day!"
+    ["text_content"]=>
+    string(8) "11111111"
+    ["fresh_content"]=>
+    string(0) ""
+  }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:82 _FILES:array(1) {
+  ["adv_img1"]=>
+  array(5) {
+    ["name"]=>
+    string(8) "kobe.jpg"
+    ["type"]=>
+    string(24) "application/octet-stream"
+    ["tmp_name"]=>
+    string(36) "D:\programming\XAMMP\tmp\php5637.tmp"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(13064)
+  }
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:133 dump file_path:array(4) {
+  ["dirname"]=>
+  string(1) "."
+  ["basename"]=>
+  string(8) "kobe.jpg"
+  ["extension"]=>
+  string(3) "jpg"
+  ["filename"]=>
+  string(4) "kobe"
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:135 dump file_path2:array(4) {
+  ["dirname"]=>
+  string(51) "E:\workbench\xiaolaba\webserver\web\dalaba\data\img"
+  ["basename"]=>
+  string(11) "adv5695.tmp"
+  ["extension"]=>
+  string(3) "tmp"
+  ["filename"]=>
+  string(7) "adv5695"
+}
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:143 dump new_name:E:/workbench/xiaolaba/webserver/web/dalaba/data/img/adv5695.jpg
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\controllers\advertisement.php:97 adv_infor_array[DATA][image]:string(20) "data/img/adv5695.jpg"
+
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:51 Advertisement_model::update
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:92 Advertisement_model::update_adv_validate
+2015-07-29T02:26:36+02:00 [root] E:\workbench\xiaolaba\webserver\web\dalaba\application\models\advertisement_model.php:72 sql = update advertisement set type = 'personal',
+                                         publish_position = '', 
+                                         title ='What a fucking day!',
+                                         text_content ='11111111',
+                                         image ='data/img/adv5695.jpg', 
+                                         fresh_content =''
+                                         where id = 27 and uid = 98

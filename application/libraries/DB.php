@@ -46,7 +46,7 @@ class DB{
             return $response;
         }
 
-        return null;
+        return $this->mysqli->affected_rows;
     }
 
     function __destruct(){

@@ -13,7 +13,6 @@ class Advertisement extends CI_Controller {
 
     public function create(){
         Logger::getRootLogger()->debug("Advertisement::create");
-        Logger::getRootLogger()->debug(Utils::var2str($_POST));
 
         $response = Utils::validate_request();
         if(Utils::validate_request() !== null){
@@ -62,7 +61,51 @@ class Advertisement extends CI_Controller {
  
 
     public function update(){
+        Logger::getRootLogger()->debug("Advertisement::update");
+
+        $response = Utils::validate_request();
+        if(Utils::validate_request() !== null){
+            echo Response::getResponseJson($response);
+            return;
+        }
         
+        $adv_infor = $_POST['request_json'];
+        Logger::getRootLogger()->debug("adv_infor = ".$adv_infor);
+
+        $adv_infor_array = json_decode($adv_infor, true);
+        Logger::getRootLogger()->debug("dump adv_infor_array:".Utils::var2str($adv_infor_array));
+        
+        $new_name = null;
+        //该广告包含图片
+        if(isset($adv_infor_array["DATA"]["image"]) && $adv_infor_array["DATA"]["image"] == "true"){
+            //获取上传图片
+            Logger::getRootLogger()->debug("_FILES:".Utils::var2str($_FILES));
+            $new_name = $this->get_update_img();
+            if(!$new_name){
+                $response = new Response();
+                $response->status = Response::STATUS_ERROR;
+                $response->error_code = "0014";
+                $response->message = "获取上传图片失败";
+                echo Response::getResponseJson($response);
+                return;
+            }
+            
+            $adv_infor_array["DATA"]['image'] = "data/img/".basename($new_name);
+        }
+        
+        
+        Logger::getRootLogger()->debug("adv_infor_array[DATA][image]:".Utils::var2str($adv_infor_array["DATA"]['image']));
+        $response = $this->advertisement_model->update($adv_infor_array["DATA"]);
+        
+        if($response != null){
+            echo Response::getResponseJson($response);
+            return;
+        }
+        
+        $response = new Response();
+        $response->status = Response::STATUS_OK;
+        $response->message = "恭喜您广告更新成功";
+        echo Response::getResponseJson($response); 
     }
 
 

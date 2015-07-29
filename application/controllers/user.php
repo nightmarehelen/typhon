@@ -105,4 +105,9 @@ class User extends CI_Controller {
         $response = $this->user_model->update_user_infor($user_infor_array["DATA"]);
         echo Response::getResponseJson($response);
     }
+
+
+    public function getPublished(){
+        
+    }
 }
